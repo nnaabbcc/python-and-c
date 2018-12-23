@@ -1,0 +1,13 @@
+{
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "C_Cpp.configurationWarnings": "Disabled",
+    "cmake.debugConfig": {
+        "environment": [
+            {
+                "name":"PATH",
+                "value": "$PATH;C:/Python37"
+            }
+        ]
+    },
+    "python.pythonPath": "C:\\Python37\\python.exe"
+}
