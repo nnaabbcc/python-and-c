@@ -9,7 +9,8 @@ add_executable(${module_name}
 set_target_properties(${module_name} PROPERTIES DEBUG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
 target_link_libraries(${module_name} PRIVATE Python3::Python)
 
-add_library(c_type_struct SHARED
+add_library(c_type_test SHARED
     c_type_struct.cpp
+    c_type_union.cpp
 )
-set_target_properties(c_type_struct PROPERTIES DEUBG_POSTFIX ${CMAKE_DEBUG_POSTFIX})
+set_target_properties(c_type_test PROPERTIES DEUBG_POSTFIX ${CMAKE_DEBUG_POSTFIX})

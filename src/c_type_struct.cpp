@@ -52,4 +52,13 @@ DLLEXPORT int32_t add_test(int32_t x, int32_t y)
     return x + y;
 }
 
+DLLEXPORT test_struct add_test_struct(const test_struct& a, const test_struct& b)
+{
+    return {
+        a.x + b.x,
+        a.y + b.y,
+        a.z + b.z
+    };
+}
+
 }
