@@ -14,6 +14,8 @@
 
 ## References
 
+- [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
+- [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [ctypes — A foreign function library for Python](https://docs.python.org/3/library/ctypes.html)
 - [how to use unions with python?](https://stackoverflow.com/questions/13293703/how-to-use-unions-with-python)
 - [使用 ctypes 进行 Python 和 C 的混合编程](https://www.cnblogs.com/gaowengang/p/7919219.html)
